@@ -1,10 +1,10 @@
 def swap(list_one):
-    """
-    Function that swaps the first and last elements of the list, regardless of length
-    :param list_one: a list of at least two elements
-    :return: the same list with the first and last elements swapped
-    """
-    pass # make sure to remove this line before beginning work on this function
+
+    print(list_one)
+    list_one[0], list_one[1], list_one[2] = list_one[2], list_one[1], list_one[0]
+    print(list_one)
+
+swap([1, 2, 3])
 
 
 def rotate_left(list_one):
@@ -13,13 +13,12 @@ def rotate_left(list_one):
     :param list_one: A list consisting of exactly three integers
     :return: a list where all the elements have been shifted 1 place to the left
     """
-    pass # make sure to remove this line before beginning work on this function
-
+    print(list_one)
 
 def max_end(list_one):
     """
-    This function will find if the first or last element of an list is larger, then set all the elements
-    of that list to that value.
+    This function will find if the first or last element of a list is larger, then set all the elements
+    of a list to be greater than that value.
     :param list_one: A list consisting of three elements - all integers
     :return: A list where all the elements are the larger of the first or last element of the original list
     """

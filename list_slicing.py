@@ -23,7 +23,6 @@ def main():
     print(names[5:])
 
 
-
     # 5. [‘Linda’] (using a positive number)
     print(names[11])
 
