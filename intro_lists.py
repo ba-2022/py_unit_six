@@ -13,13 +13,36 @@ def rotate_left(list_one):
     :param list_one: A list consisting of exactly three integers
     :return: a list where all the elements have been shifted 1 place to the left
     """
-    print(list_one)
+
+    list_swapped = [6, 7, 8]
+    list_swapped[0] = list_one[1]
+    list_swapped[1] = list_one[2]
+    list_swapped[2] = list_one[0]
+    return list_swapped
+
+print(rotate_left([1, 2, 3]))
+
+
+
 
 def max_end(list_one):
     """
     This function will find if the first or last element of a list is larger, then set all the elements
     of a list to be greater than that value.
-    :param list_one: A list consisting of three elements - all integers
+    :param list_one: A list consistig of three elements - all integers
     :return: A list where all the elements are the larger of the first or last element of the original list
     """
-    pass # make sure to remove this line before beginning work on this function
+
+    list_one = [1, 2, 3]
+    if list_one[0] > list_one[-1]:
+        list = [list_one[0], list_one[0], list_one[0]]
+        print(list_one[-1]) = [list_one(1)
+
+    else:
+        print(list_one[1, 2, 3])
+
+
+
+
+
+
